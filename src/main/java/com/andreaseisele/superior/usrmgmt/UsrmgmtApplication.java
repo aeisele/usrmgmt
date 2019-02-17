@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UsrmgmtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsrmgmtApplication.class, args);
+		System.out.println("hello world, this main class is so much better!");
+		SpringApplication.run(UsrmgmtApplication.class, args)
+		;
+
 	}
 
 }
